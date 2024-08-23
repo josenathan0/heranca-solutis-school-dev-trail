@@ -6,7 +6,7 @@ public class Operario extends Empregado {
     }
 
     public Operario(String nome, String endereco, String telefone, int codigoSetor, double salarioBase, double imposto, double valorProducao, double comissao) {
-        super(nome, endereco, telefone, codigoSetor, salarioBase, imposto); // Chama o construtor da classe Empregado
+        super(nome, endereco, telefone, codigoSetor, salarioBase, imposto);
         this.valorProducao = valorProducao;
         this.comissao = comissao;
     }
